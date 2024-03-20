@@ -1,0 +1,553 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Containers */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.homeContainer,
+.skillContainer,
+.projectContainer,
+.contactContainer {
+    background-size: cover;
+}
+
+.homeContainer {
+    background-image: url(../Images/pexels-greg-gulik-1001433.jpg);
+}
+
+.skillContainer {
+    background-image: url(../Images/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg);
+}
+
+.projectContainer {
+    background-image: url(../Images/luca-micheli-ruWkmt3nU58-unsplash.jpg);
+}
+
+.contactContainer {
+    background-image: url(../Images/pexels-greg-gulik-1001433.jpg);
+}
+
+.homeContainer{color: white;}
+
+/* Info Container */
+.infoContainer {
+    border-radius: 20px;
+    padding: 40px;
+    background: rgba(125, 125, 125, 0.185);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.infoContainer h2 {
+    text-align: center;
+    color: white;
+}
+
+/* Box Info */
+.boxInfo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxInfo li {
+    margin: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #262626;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.boxInfo img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.boxInfo h4 {
+    margin: 10px 0;
+}
+
+.boxInfo p {
+    margin: 5px 0;
+}
+
+.boxInfo button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boxInfo button:hover {
+    background-color: #0056b3;
+}
+
+/* Project Navigation */
+.ProjectNav {
+    text-align: center;
+    color: white;
+}
+
+.ProjectNav li:hover {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ProjectNav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.projectBox li {
+    height: 35em;
+}
+
+.projectBox p {
+    margin: 5em 0;
+}
+
+.projectBox img {
+    width: 12em;
+    height: 8em;
+    border: 1px white solid;
+    margin: 50px 0;
+}
+
+.skillBox li {
+    height: 25em;
+    font-size: 1.2rem;
+}
+
+.boxInfo.skillBox li h4 + p,
+.boxInfo.skillBox li p + button {
+    margin: 50px 0; /* Adjust the value as needed */
+}
+
+.skillBox button {
+    height: 3em;
+    width: 10em;
+}
+
+/* Contact Form */
+.contactForm {
+    padding: 20px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.contactContainer img{width: 50px; 
+                        height: auto;}
+    
+
+/* Media Queries for Tablet Screens */
+@media screen and (max-width: 1080px) {
+    .container {
+        padding: 10px;
+    }
+
+    .boxInfo li {
+        width: 90%;
+    }
+
+    .boxInfo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .boxInfo button {
+        padding: 8px 16px;
+    }
+
+    .ProjectNav li {
+        margin: 0 5px;
+    }
+/* Adjust dimensions for .skillBox li */
+.skillBox li {
+    width: 8em;
+    height: 15em;
+}
+
+/* Adjust margins for .boxInfo.skillBox li elements */
+.boxInfo.skillBox li h4 + p,
+.boxInfo.skillBox li p + button {
+    margin: 10px 0;
+}
+
+/* Adjust font size for .boxInfo.skillBox p */
+.boxInfo.skillBox p {
+    font-size: 0.6rem;
+}
+
+/* Adjust dimensions and font size for .skillBox button */
+.skillBox button {
+    height: 3em;
+    width: 8em;
+    
+}
+
+/* Adjust dimensions for .infoContainer */
+.infoContainer {
+    width: 75em;
+    height: 55vh;
+
+ 
+    
+    }
+    .ProjectNav {
+        text-align: center;
+        color: white;
+    }
+    
+
+    
+
+    
+    .projectBox li {
+        height:20em;
+        width: 15vw;
+    }
+    
+    .projectBox p {
+        margin: 2em 0;
+    }
+    
+    .projectBox img {
+        width: 10em;
+        height: 6em;
+        border: 1px white solid;
+        margin: 0;
+    }
+    .contactBox li{
+        width: 25em;
+        
+
+    }
+    
+
+    
+    .contactContainer img{width: 50px; 
+                            height: auto;}
+}
+
+
+/* Media Queries for Tablet vertical Screens */
+@media screen and (max-width: 810px) {
+    .container {
+        padding: 10px;
+    }
+
+    .boxInfo li {
+        width: 90%;
+    }
+
+    .boxInfo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .boxInfo button {
+        padding: 8px 16px;
+    }
+
+    .ProjectNav li {
+        margin: 0 5px;
+    }
+/* Adjust dimensions for .skillBox li */
+.skillBox li {
+    width: 5em;
+    height: 15em;
+}
+
+/* Adjust margins for .boxInfo.skillBox li elements */
+.boxInfo.skillBox li h4 + p,
+.boxInfo.skillBox li p + button {
+    margin: 10px 0;
+}
+
+/* Adjust font size for .boxInfo.skillBox p */
+.boxInfo.skillBox p {
+    font-size: 0.6rem;
+}
+
+/* Adjust dimensions and font size for .skillBox button */
+.skillBox button {
+    height: 3em;
+    width: 8em;
+    
+}
+
+/* Adjust dimensions for .infoContainer */
+.infoContainer {
+    width: 75em;
+    height: 55vh;
+
+ 
+    
+    }
+    .ProjectNav {
+        text-align: center;
+        color: white;
+    }
+    
+
+    .projectBox{border: 1px white hidden; width: 110vw;}
+
+    
+    .projectBox li {
+        height: 30vh;
+        width: 15vw;
+    }
+    
+    .projectBox p {
+        margin: 1em 0;
+        font-size: 0.8rem;
+    }
+    
+    .projectBox img {
+        width: 8em;
+        height: 6em;
+        border: 1px white solid;
+        margin: 0;
+    }
+    .contactBox li{
+        width: 20em;
+        position: relative;
+    
+        
+
+    }
+    
+
+    
+    .contactContainer img{width: 50px; 
+                            height: auto;}
+}
+
+
+/* Media Queries for Iphone horizental Screens */
+@media screen and (max-width: 900px) {
+    .container {
+        padding: 10px;
+    }
+
+    .boxInfo li {
+        width: 90%;
+    }
+
+    .boxInfo img {
+        width: 30px;
+        height: auto;
+    }
+
+    .boxInfo button {
+        padding: 8px 16px;
+    }
+
+    .ProjectNav li {
+        margin: 0 5px;
+    }
+/* Adjust dimensions for .skillBox li */
+.skillBox li {
+    width: 5em;
+    height: 8em;
+    position: relative;
+    bottom: 2em;
+    
+}
+
+/* Adjust margins for .boxInfo.skillBox li elements */
+.boxInfo.skillBox li h4 + p,
+.boxInfo.skillBox li p + button {
+    margin: 10px 0;
+}
+
+/* Adjust font size for .boxInfo.skillBox p */
+.boxInfo.skillBox p {
+    font-size: 0.5rem;
+}
+.boxInfo.skillBox h4 {
+    font-size: 0.8rem;
+}
+/* Adjust dimensions and font size for .skillBox button */
+.skillBox button {
+    display: none;
+    
+}
+
+/* Adjust dimensions for .infoContainer */
+.infoContainer {
+    width: 75em;
+    height: 55vh;
+
+ 
+    
+    }
+
+
+    .projectBox{border: 1px white solid; width: 100vw;}
+
+    
+    .projectBox li {
+        height: 30vh;
+        width: 15vw;
+    }
+    
+    .projectBox p {
+       display: none;
+    }
+    
+    .projectBox img {
+        width: 6em;
+        height: 4em;
+        border: 1px white solid;
+        position: relative;
+        bottom: 5px;
+    }
+    .contactBox li{
+        width: 9em;
+        position: relative;
+        font-size: 0.7rem;
+        text-align: center;
+    
+        
+
+    }
+    
+
+    
+    .contactContainer img{width: 50px; 
+                            height: auto;}
+}
+
+
+
+/* Media Queries for Iphone horizental Screens */
+@media screen and (max-width: 415px) {
+    .container {
+        padding: 10px;
+    }
+
+    .boxInfo li {
+        width: 90%;
+    }
+
+    .boxInfo img {
+        width: 30px;
+        height: auto;
+    }
+
+    .boxInfo button {
+        padding: 8px 16px;
+    }
+
+    .ProjectNav li {
+        margin: 0 5px;
+    }
+/* Adjust dimensions for .skillBox li */
+.skillBox li {
+    width: 3.5em;
+    height: 8em;
+    position: relative;
+    bottom: 1em;
+    
+}
+
+/* Adjust margins for .boxInfo.skillBox li elements */
+.boxInfo.skillBox li h4 + p,
+.boxInfo.skillBox li p + button {
+    margin: 0px 0;
+}
+
+/* Adjust font size for .boxInfo.skillBox p */
+.boxInfo.skillBox p {
+    font-size: 0.4rem;
+}
+.boxInfo.skillBox h4 {
+    font-size: 0.8rem;
+}
+/* Adjust dimensions and font size for .skillBox button */
+.skillBox button {
+    display: none;
+    
+}
+
+/* Adjust dimensions for .infoContainer */
+.infoContainer {
+    width: 75em;
+    height: 55vh;
+
+ 
+    
+    }
+
+
+    .projectBox{border: 1px white hidden; width: 100vw;}
+
+    
+    .projectBox li {
+        height: 16vh;
+        width: 25vw;
+    }
+    
+    .projectBox p {
+       display: none;
+    }
+    
+    .projectBox img {
+        width: 6em;
+        height: 4em;
+        border: 1px white solid;
+        position: relative;
+        bottom: 5px;
+    }
+    .contactBox {
+        width: 100vw;
+        position: relative;
+        font-size: 0.7rem;
+        text-align: center;
+    
+        
+
+    }
+    .contactBox li{
+        width: 9em;
+        position: relative;
+        font-size: 0.7rem;
+        text-align: center;
+    
+        
+
+    }
+    
+
+    
+    .contactContainer img{width: 50px; 
+                            height: auto;}
+}
+

@@ -1,0 +1,112 @@
+body {
+    border: 1px red hidden;
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+    font-family: Arial, sans-serif; /* optional: choose a font */
+}
+
+.navBarDesign {
+    list-style-type: none;
+    width: 100vw;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    background-color: #262622;
+    overflow: hidden;
+    position: fixed;
+    z-index: 2;
+  }
+  
+  .navBarDesign li {
+    float: left;
+  }
+  
+  .navBarDesign li button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 18px 25px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-right:1.5px white solid;
+  }
+  
+  .navBarDesign li button:hover {
+    background-color: white;
+    color: #262622;
+  }
+  @media screen and (max-width: 1080px) {
+
+    .navBarDesign {
+      list-style-type: none;
+      width: 100vw;
+      height: 4vh;
+      margin: 0;
+      padding: 0;
+      background-color: #262622;
+      overflow: hidden;
+      position: fixed;
+      z-index: 2;
+    }
+    .navBarDesign li button {
+      background: none;
+      border: none;
+      color: white;
+      padding: 7px 25px;
+      cursor: pointer;
+      font-size: 1rem;
+      border-right:1.5px white solid;
+    }
+  }
+
+  
+
+  @media screen and (max-width: 900px) {
+
+    .navBarDesign {
+      list-style-type: none;
+      width: 100vw;
+      height: 8vh;
+      margin: 0;
+      padding: 0;
+      background-color: #262622;
+      overflow: hidden;
+      position: fixed;
+      z-index: 2;
+    }
+    .navBarDesign li button {
+      background: none;
+      border: none;
+      color: white;
+      padding: 7px 25px;
+      cursor: pointer;
+      font-size: 1rem;
+      border-right:1.5px white solid;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+
+    .navBarDesign {
+      list-style-type: none;
+      width: 100vw;
+      height: 4vh;
+      margin: 0;
+      padding: 0;
+      background-color: #262622;
+      overflow: hidden;
+      position: fixed;
+      z-index: 2;
+    }
+    .navBarDesign li button {
+      background: none;
+      border: none;
+      color: white;
+      padding: 7px 25px;
+      cursor: pointer;
+      font-size: 1rem;
+      border-right:1.5px white solid;
+    }
+  }
