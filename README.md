@@ -1,1 +1,0 @@
-I wanted to keep my design simple and effective
