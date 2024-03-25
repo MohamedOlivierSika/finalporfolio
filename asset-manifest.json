@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/finalporfolio/static/css/main.2eb28a61.css",
+    "main.js": "/finalporfolio/static/js/main.d36ce2a9.js",
+    "static/media/luca-micheli-ruWkmt3nU58-unsplash.jpg": "/finalporfolio/static/media/luca-micheli-ruWkmt3nU58-unsplash.534a11a50e6f3aeaa045.jpg",
+    "static/media/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg": "/finalporfolio/static/media/cristina-gottardi-CSpjU6hYo_0-unsplash.d92ade0905b36f5cf8b4.jpg",
+    "static/media/slingair-mvp.gif": "/finalporfolio/static/media/slingair-mvp.2c4f14f282d78c459ef5.gif",
+    "static/media/pexels-greg-gulik-1001433.jpg": "/finalporfolio/static/media/pexels-greg-gulik-1001433.4a8522bb276ca2a8897d.jpg",
+    "static/media/VacationApp.png": "/finalporfolio/static/media/VacationApp.c6d032a83b1e9f35542e.png",
+    "static/media/WeatherApp.png": "/finalporfolio/static/media/WeatherApp.9be1573126438a347834.png",
+    "static/media/screenshot.png": "/finalporfolio/static/media/screenshot.b032586b8215825d6eca.png",
+    "index.html": "/finalporfolio/index.html",
+    "main.2eb28a61.css.map": "/finalporfolio/static/css/main.2eb28a61.css.map",
+    "main.d36ce2a9.js.map": "/finalporfolio/static/js/main.d36ce2a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eb28a61.css",
+    "static/js/main.d36ce2a9.js"
+  ]
+}
